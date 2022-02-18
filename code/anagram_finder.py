@@ -12,7 +12,7 @@ class Anfind():
         # create list to store anagrams
         anagrams = []
         # open csv with dutch words
-        with open('../data/clean_woorden.csv', 'r') as file:
+        with open('data/clean_woorden.csv', 'r') as file:
             csv_reader = csv.reader(file)
             # check for each word if it is an anagram 
             for line in csv_reader:

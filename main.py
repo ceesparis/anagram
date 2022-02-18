@@ -1,5 +1,8 @@
-from anagram_finder import Anfind
-from helpers import show_results
+import sys
+sys.path.append('/Users/ceesparis/excerscises-cs50/anagram/code')
+
+from code.anagram_finder import Anfind
+from code.helpers import show_results
 
 if __name__ == "__main__":
 
